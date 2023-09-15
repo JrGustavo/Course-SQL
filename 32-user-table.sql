@@ -8,6 +8,7 @@ CREATE TABLE users (
     "email" varchar(100) NOT NULL UNIQUE,
     "last_connection" varchar(100) NOT NULL,
     "country" varchar(100) NOT NULL,
+
     "website" varchar(100) NOT NULL,
     "username" varchar(100) NOT NULL UNIQUE,
     "followers" int4 NOT NULL,
